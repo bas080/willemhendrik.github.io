@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Oxanium';
+}
+
+header{
+  background: url(../img/head.jpg) no-repeat center center fixed;
+  height: 55vh;
+  width: 100%;
+  position: relative;
+  outline: 5px dashed #999b7f;
+  margin-bottom: 10vh;
+}
+
+header > h1{
+  animation: type 2s steps(13);
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 380%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #e7ea51;
+}
+
+nav{
+  position: relative;
+  width: 50%;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #e7ea51;
+}
+
+li{
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline;
+  margin: 1%;
+}
+
+
+.huidig{
+  color: #EDAF28;
+}
+
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 9ch;
+  }
+}
+
+body{
+  font-size: 16px;
+  background: linear-gradient(#e7ea51, #626357);
+  min-height: 100vh;
+}
+
+img{
+  width: 100%;
+}
+
+.searchbar{
+  padding: 10px;
+  width: 40%;
+  font-size: 130%;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.searchbar:focus{
+  box-shadow: 0 0 0 4pt #626357;
+}
+
+main{
+width: 90%;
+color: white;
+text-align: center;
+margin: 0 auto;
+}
+
+.js--cardWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.js--card{
+  margin: 7%;
+  border: 5px solid  #999b7f;
+  border-radius: 12px;
+}
+
+.js--card:hover{
+  transform: translateY(-10px);
+  box-shadow: 3px 14px 8px 1px rgba(0,0,0,0.2);
+}
+
+footer{
+  bottom: 0%;
+  left: 0%;
+  position: relative;
+  color: #e7ea51;
+}
+
+@media (max-width: 1000px){
+
+  main{
+  width: 100%;
+  }
+
+  .js--card{
+    margin: 4%;
+  }
+
+@media (max-width: 850px){
+
+  nav{
+    width: 70%;
+  }
+
+  .searchbar{
+    width: 60%;
+  }
+
+  .js--cardWrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .js--card{
+    margin: 2%;
+  }
+
+}
+
+@media(max-width: 585px){
+
+  li{
+    display: block;
+  }
+
+  .js--cardWrapper{
+    grid-template-columns: 1fr;
+  }
+
+}
