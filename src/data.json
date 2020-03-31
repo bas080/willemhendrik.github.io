@@ -1,0 +1,65 @@
+{
+  "pages": [
+    {
+      "page_path": "./index.html",
+      "name": "Home"
+    }, {
+      "page_path": "./geschiedenis.html",
+      "name": "Geschiedenis"
+    }, {
+      "page_path": "./bandleden.html",
+      "name": "Bandleden"
+    }, {
+      "page_path": "./discografie.html",
+      "name": "Discografie"
+    }, {
+      "page_path": "./merch.html",
+      "name": "Merch"
+    }
+  ],
+
+  "products": [
+    {
+      "price": "€12,50",
+      "product_path": "./producten/bidon.html",
+      "title": "Tour de France Bidon",
+      "image_path": "../img/merch/bidon.jpg",
+      "description": "Een handig hulp middel om te hydrateren tijdens inspanning."
+    },
+    {
+      "price": "€10,-",
+      "product_path": "./producten/bril.html",
+      "title": "Kraftwerk 3D-Bril",
+      "image_path": " ../img/merch/bril.jpg",
+      "description": "Met deze bril kan je alles in 3D zien."
+    },
+    {
+      "price": "€12,50",
+      "product_path": "./producten/button.html",
+      "title": "Kraftwerk Button",
+      "image_path": " ../img/merch/button.jpg",
+      "description": "Zo kan iedereen zien dat je een goeie smaak hebt."
+    },
+    {
+      "price": "€12,50",
+      "product_path": "./producten/catalogue.html",
+      "title": "Catalogue Verzamel Album",
+      "image_path": " ../img/merch/catalogue.jpg",
+      "description": "Voor als je niet kan kiezen welk album je het best vindt."
+    },
+    {
+      "price": "€12,50",
+      "product_path": "./producten/shirt.html",
+      "title": "Computer World Shirt",
+      "image_path": "../img/merch/shirt.jpg",
+      "description": "Dit shirt gaat nooit uit de mode."
+    },
+    {
+      "price": "€12,50",
+      "product_path": "./producten/tas.html",
+      "title": "Kraftwerk Tas",
+      "image_path": "../img/merch/tas.jpg",
+      "description": "Met deze tas kan je gemakkelijk veel spullen meenemen als je op stap gaat."
+    }
+  ]
+}

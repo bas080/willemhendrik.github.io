@@ -1,0 +1,11 @@
+<input
+  type="text"
+  class="searchbar"
+  id="js--searchbar"
+  placeholder="Zoek een artikel">
+
+<ul class="js--cardWrapper">
+  {{#products}}
+    {{>product_card}}
+  {{/products}}
+</ul>
